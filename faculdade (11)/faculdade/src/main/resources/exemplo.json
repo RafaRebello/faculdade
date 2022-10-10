@@ -1,0 +1,15 @@
+{
+    "nome": "Patricia",
+    "especial": true,
+    "codigoCurso": 5,
+    "notas": [
+        {
+            "disciplina": "Nota Sociologia",
+            "valor": 6.5
+        },
+        {
+            "disciplina": "Nota 1",
+            "valor": 7.5
+        }
+    ]
+}
