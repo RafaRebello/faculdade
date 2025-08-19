@@ -1,14 +1,20 @@
 package com.ciandt.nextgen.faculdade.modelos;
 
 public enum Disciplina {
-    DISCIPLINA1("Nota 1"), DISCIPLINA2("Nota 2"), SOCIOLOGIA("Nota Sociologia"),
-    CALCULO1("Nota Cálculo I"), CALCULO2("Nota Cálculo II"), CALCULO3("Nota Cálculo III"),
-    FISICA("Nota Física"), BIO_ENG("Nota Bio-Engenharia"),
-    DISCIPLINA3("Nota 3"), DISCIPLINA4("Nota 4");
+    DISCIPLINA1("Nota 1"),
+    DISCIPLINA2("Nota 2"),
+    SOCIOLOGIA("Nota Sociologia"),
+    CALCULO1("Nota Cálculo I"),
+    CALCULO2("Nota Cálculo II"),
+    CALCULO3("Nota Cálculo III"),
+    FISICA("Nota Física"),
+    BIO_ENG("Nota Bio-Engenharia"),
+    DISCIPLINA3("Nota 3"),
+    DISCIPLINA4("Nota 4");
 
     private final String nome;
 
-    private Disciplina(String nome) {
+    Disciplina(String nome) {
         this.nome = nome;
     }
 
