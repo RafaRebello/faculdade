@@ -10,9 +10,12 @@ import javax.persistence.ManyToOne;
 
 @Entity @IdClass(NotaId.class)
 public class Nota {
+
     @Id @ManyToOne @JoinColumn(name="aluno")
     private Aluno aluno;
+
     @Id @Enumerated(EnumType.STRING) private Disciplina disciplina;
+
     private Double valor;
 
     public Nota() {}

@@ -21,12 +21,19 @@ import static com.ciandt.nextgen.faculdade.modelos.Situacao.*;
 public abstract class Aluno {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private long matricula;
+
     private String nome;
+
     private boolean especial = false;
+
     @OneToMany(mappedBy = "aluno", cascade = CascadeType.ALL)
+
     protected List<Nota> notas = new LinkedList<>();
+
     private Double media;
+
     private Situacao situacao;
     
     public Aluno () {
