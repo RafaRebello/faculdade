@@ -9,7 +9,7 @@ public class TestaVetores {
     }
 
     public static void huandy() {
-        String vet[] = {"b", "e", "c", "a", "d"};
+        String[] vet = {"b", "e", "c", "a", "d"};
         imprimeVetor(vet);
         int p = Arrays.binarySearch(vet, "e");
         System.out.println("POSICAO: " + p);
@@ -21,7 +21,7 @@ public class TestaVetores {
     }
 
     public static void guanabara() {
-        int vet[] = {3, 7, 6, 1, 9, 4, 2};
+        int[] vet = {3, 7, 6, 1, 9, 4, 2};
         imprimeVetor(vet);
         int p = Arrays.binarySearch(vet, 3);
         System.out.println("POSICAO: " + p);
